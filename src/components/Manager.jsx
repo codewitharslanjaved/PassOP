@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
-import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { v4 as uuidv4 } from 'uuid';
 import Logo from './Logo'
@@ -102,20 +102,9 @@ const Manager = () => {
 
     return (
         <>
-            <ToastContainer
-                position="top-right"
-                autoClose={5000}
-                hideProgressBar={false}
-                newestOnTop={false}
-                closeOnClick
-                rtl={false}
-                pauseOnFocusLoss
-                draggable
-                pauseOnHover
-                theme="light"
-                transition="Bounce" />
-            <ToastContainer />
-            <div className="p-2 md:p-0 md:mycontainer my-8">
+
+            
+            <div className="p-2 md:p-0 md:mycontainer mb-20 my-8">
                 <h1 className='text-4xl text-center'>
                     <Logo />
                 </h1>
