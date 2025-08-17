@@ -14,6 +14,13 @@ A lightweight **password manager** built with ⚛️ React + ⚡ Vite, offering 
 * ➕ **Add / Edit / Delete** entries.
 * 📋 **Copy to clipboard** quickly.
 * 🌙 **Light & Dark mode** support.
+
+---
+
+## 📸 Preview
+
+![PassOP Web](https://github.com/codewitharslanjaved/PassOP/blob/main/PassOP%20Web%20Preview.png)
+
 ---
 
 ## 🛠️ Built With
